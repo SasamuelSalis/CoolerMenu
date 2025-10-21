@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolerMenu", "CoolerMenu.csproj", "{1FCC25AE-84A1-0C6D-E80C-51C9C8AF20AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FCC25AE-84A1-0C6D-E80C-51C9C8AF20AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCC25AE-84A1-0C6D-E80C-51C9C8AF20AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCC25AE-84A1-0C6D-E80C-51C9C8AF20AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCC25AE-84A1-0C6D-E80C-51C9C8AF20AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1A3AB9E-99F7-4960-A671-BD1AF28104BB}
+	EndGlobalSection
+EndGlobal

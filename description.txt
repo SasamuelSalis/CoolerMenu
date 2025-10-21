@@ -1,0 +1,42 @@
+Samuel's Cooler Menu (V1.2)
+
+I got kinda bored with the default Terraria title screen. I looked around for mods that would change it up, but couldn't really find what I was looking for.
+So I did what any sane person would do and spent WAY too much time making my own custom menu from scratch!
+
+  Features rn
+• Smooth sliding button and (some) menu animations
+• Custom background images on button hover (toggleable)
+• Choose left/right side for buttons and logo
+• Fun splash messages (toggleable) 
+• Custom button icons (toggleable)
+• It's localized for all languages!!!
+• Floating button animations (toggleable)
+
+ How to Use
+Download the mod (a duh)
+
+[h2] Changelog[/h2]
+[b]V1.20[/b]
+• COMPATIBILITY WITH OTHER MOD MENU THEMES!!
+• Background images revamp
+• Proper localization
+• Smooth menu anims (not for hardcoded ones.)
+
+[h2]<3 Special Thanks[/h2]
+• Lion8Cake (coding help)
+• z_e_n_ (Mod Icon)
+• Drovyn (Smooth menu animations)
+• xenofite (Russian Translation)
+• And of course, you!
+
+[h2]Support[/h2]
+This is my first proper mod, so updates might take a bit to make. I'm still learning! If you have suggestions or find bugs, let me know!
+
+The vanilla menu works fine, but after hundreds of hours it gets a bit... repetitive. This just adds some visual variety without changing how the game actually plays.
+
+Stay cool!
+
+
+[quote=tModLoader CoolerMenu]
+Developed By Samuel Salis
+[/quote]

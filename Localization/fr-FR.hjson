@@ -1,0 +1,128 @@
+Mods: {
+	CoolerMenu: {
+		DisplayName: Menu Plus Cool
+		Description: Une expérience de menu principal plus stylée
+		SinglePlayer: Solo
+		Multiplayer: Multijoueur
+		Achievements: Succès
+		Settings: Paramètres
+		Workshop: Atelier
+		Exit: Quitter
+		WorkshopError: Échec de l’ouverture de l’Atelier
+		AchievementsError: Échec de l’ouverture des Succès
+
+		CoreMenu: {
+			CoreMenuSwap: "Changer le thème du menu principal : "
+			Vanilla: Vanilla
+			CoolerMenu: Menu Stylé de Sam
+		}
+
+		SplashMessages: {
+			Splash1: Maintenant avec des boutons coulissants !
+			Splash2: Le Pêcheur dit : ATTRAPE PLUS DE POISSONS !
+			Splash3: Ne laisse pas de souches d’arbres !
+			Splash4: Zenith cassée.
+			Splash5: Va voir l’Atelier !
+			Splash6: Purifie ce monde !
+			Splash7: Propulsé par tModLoader !
+			Splash8: Ensemble, nous sommes Terraria.
+			Splash9: Des boutons qui flOttent !
+			Splash10: Plus cool que le vanilla !
+			Splash11: OÙ EST LE DERNIER 1% ???
+			Splash12: Calamity ? Je la connais à peine !
+			Splash13: Je vis dans une boîte à chaussures.
+			Splash14: Ce coffre ne doit pas être un piè—
+			Splash15: Malheureusement, le Terrarien est mort écrasé par un ROCHER
+			Splash16: Herobrine non inclus !
+			Splash17: Ce n’est pas le Seau de Chum !!
+			Splash18: Les bâtons et les pierres ne briseront PAS CES OS !
+			Splash19: texte_message.va(ici)
+			Splash20: 99 % des reforgers abandonnent avant d’avoir (DIVIN)
+			Splash21: J’avais une blague drôle, mais je l’ai oubliée
+			Splash22: Le mode difficile va sûrement te faire ragequit !
+			Splash23: Tu es le héros, pour toujours.
+			Splash24: Pas l’Arche de Noé
+			Splash25: girq/w22igyq4rgy, désolé, un slime sur le clavier...
+			Splash26: Replante les arbres !
+			Splash27: Organise ton inventaire !
+			Splash28: Ne joue pas à 3 h du matin
+			Splash29: Terrarien, je me souviens… tu es TERRASAVR
+			Splash30: Oui, le fer et le plomb sont la même chose.
+			Splash31: Du grand cinéma !
+			Splash32: Mirsario n’a rien sur moi !
+			Splash33: Le Guide revient TOUJOURS.
+			Splash34: Le meilleur truc depuis le pain tranché !
+			Splash35: ATTENTION : ce jeu peut causer un niveau d’excitation élevé
+			Splash36: Rempli de LORE !
+			Splash37: Ne tue pas les papillons RVB, d’accord ?
+			Splash38: Va en enfer ! Ou peut-être dans l’espace !
+			Splash39: Je te condamne à 200 quêtes de pêche.
+			Splash40: De quoi te faire tomber de ta chaise !
+			Splash41: AVERTISSEMENT : jeu extrêmement amusant et addictif !
+			Splash42: Simulateur de torture de PNJ !
+			Splash43: TUE LES LAPINS, TOUS !!!
+			Splash44: Pas pour ceux qui ont un problème de compétence
+			Splash45: IA de fée catastrophique !
+			Splash46: Oui, TerraSavr c’est de la triche.
+			Splash47: Échappe au Gardien du Donjon… ou pas.
+			Splash48: Il pleut du slime !
+			Splash49: Approuvé par 9 médecins sur 10
+			Splash50: Tu es une terrible personne.
+			Splash51: texte de chargement (41,67 % terminé)
+		}
+
+		Configs: {
+			CoolerMenuConfig: {
+				DisplayName: Configuration du Menu Cool
+
+				Headers: {
+					Appearance: Apparence
+					Icons: Icônes
+					Animations: Animations
+					// CoreMenuConfig: Core Menu Config Header
+				}
+
+				ButtonPosition: {
+					Label: Position des boutons
+					Tooltip: Le côté de l’écran où apparaissent les boutons
+				}
+
+				LogoPosition: {
+					Label: Position du logo
+					Tooltip: Le côté de l’écran où apparaît le logo
+				}
+
+				EnableHoverBackgrounds: {
+					Label: Arrière-plans au survol
+					Tooltip: Affiche des images d’arrière-plan en survolant les boutons
+				}
+
+				EnableButtonIcons: {
+					Label: Icônes de bouton
+					Tooltip: Affiche des icônes à côté des boutons du menu
+				}
+
+				EnableSplashMessages: {
+					Label: Messages aléatoires
+					Tooltip: Affiche des messages aléatoires sous le logo
+				}
+
+				EnableFloatingAnimation: {
+					Label: Boutons flottants
+					Tooltip: Active l’animation de flottement pour les boutons
+				}
+
+				isMenuActive: {
+					// Label: Menu Active
+					// Tooltip: Config way of toggling on and off the menu theme
+				}
+			}
+
+			HorizontalPosition: {
+				Tooltip: ""
+				Left.Label: Gauche
+				Right.Label: Droite
+			}
+		}
+	}
+}

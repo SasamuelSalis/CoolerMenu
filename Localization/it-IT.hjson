@@ -1,0 +1,128 @@
+Mods: {
+	CoolerMenu: {
+		DisplayName: Menu Più Figo
+		Description: Un’esperienza di menu principale più stilosa
+		SinglePlayer: Giocatore singolo
+		Multiplayer: Multigiocatore
+		Achievements: Obiettivi
+		Settings: Impostazioni
+		Workshop: Workshop
+		Exit: Esci
+		WorkshopError: Impossibile aprire il Workshop
+		AchievementsError: Impossibile aprire gli Obiettivi
+
+		CoreMenu: {
+			CoreMenuSwap: "Cambia tema del menu principale: "
+			Vanilla: Vanilla
+			CoolerMenu: Menu Figo di Sam
+		}
+
+		SplashMessages: {
+			Splash1: Ora con pulsanti scorrevoli!
+			Splash2: Il Pescatore dice: PESCA PIÙ PESCI!
+			Splash3: Non lasciare i ceppi degli alberi!
+			Splash4: Zenith rotto.
+			Splash5: Dai un’occhiata al Workshop!
+			Splash6: Purifica quel mondo!
+			Splash7: Alimentato da tModLoader!
+			Splash8: Insieme, siamo Terraria.
+			Splash9: Pulsanti che flOttano!
+			Splash10: Più figo del vanilla!
+			Splash11: DOV’È L’ULTIMO 1%???
+			Splash12: Calamity? Appena la conosco!
+			Splash13: Vivo in una scatola di scarpe.
+			Splash14: Questo forziere non sarà mica una tra—
+			Splash15: Purtroppo, il Terrariano è morto per una ROCCIA
+			Splash16: Herobrine non incluso!
+			Splash17: Questo non è il Secchio del Chum!!
+			Splash18: Bastoni e pietre non spezzeranno QUESTE ossa!
+			Splash19: testo_messaggio.va(qui)
+			Splash20: Il 99% dei riforgiatori smette prima di ottenere (DIVINO)
+			Splash21: Avevo una battuta divertente, ma l’ho dimenticata
+			Splash22: La modalità difficile ti farà sicuramente smettere!
+			Splash23: Sei l’eroe, per sempre.
+			Splash24: Non è l’arca di Noè
+			Splash25: girq/w22igyq4rgy, scusa, slime sulla tastiera...
+			Splash26: Ripianta gli alberi!
+			Splash27: Organizza il tuo inventario!
+			Splash28: Non giocare alle 3 del mattino
+			Splash29: Terrariano, mi ricordo... sei TERRASAVR
+			Splash30: Sì, Ferro e Piombo sono la stessa cosa.
+			Splash31: Cinema puro!
+			Splash32: Mirsario non è alla mia altezza!
+			Splash33: La Guida torna SEMPRE.
+			Splash34: Il meglio dopo il pane a fette!
+			Splash35: ATTENZIONE: questo gioco può causare un alto livello di eccitazione
+			Splash36: Pieno di LORE!
+			Splash37: Non uccidere le farfalle RGB, ok?
+			Splash38: Vai all’inferno! O magari nello spazio!
+			Splash39: Ti condanno a 200 missioni di pesca.
+			Splash40: Ti farà saltare dalla sedia!
+			Splash41: AVVISO: gioco estremamente divertente e coinvolgente!
+			Splash42: Simulatore di tortura per NPC!
+			Splash43: UCCIDI I CONIGLI, TUTTI!!!
+			Splash44: Non per chi ha problemi di abilità
+			Splash45: Terribile IA delle fatine!
+			Splash46: Sì, TerraSavr è barare.
+			Splash47: Scappa dal Guardiano del Dungeon... o no.
+			Splash48: Piove slime!
+			Splash49: Approvato da 9 medici su 10
+			Splash50: Sei una persona terribile.
+			Splash51: testo di caricamento (41,67% completato)
+		}
+
+		Configs: {
+			CoolerMenuConfig: {
+				DisplayName: Configurazione del Menu Figo
+
+				Headers: {
+					Appearance: Aspetto
+					Icons: Icone
+					Animations: Animazioni
+					// CoreMenuConfig: Core Menu Config Header
+				}
+
+				ButtonPosition: {
+					Label: Posizione dei pulsanti
+					Tooltip: Lato dello schermo in cui appaiono i pulsanti
+				}
+
+				LogoPosition: {
+					Label: Posizione del logo
+					Tooltip: Lato dello schermo in cui appare il logo
+				}
+
+				EnableHoverBackgrounds: {
+					Label: Sfondo al passaggio del cursore
+					Tooltip: Mostra immagini di sfondo quando passi sopra i pulsanti
+				}
+
+				EnableButtonIcons: {
+					Label: Icone sui pulsanti
+					Tooltip: Mostra icone accanto ai pulsanti del menu
+				}
+
+				EnableSplashMessages: {
+					Label: Messaggi casuali
+					Tooltip: Mostra messaggi casuali sotto il logo
+				}
+
+				EnableFloatingAnimation: {
+					Label: Pulsanti fluttuanti
+					Tooltip: Attiva l’animazione di fluttuazione per i pulsanti
+				}
+
+				isMenuActive: {
+					// Label: Menu Active
+					// Tooltip: Config way of toggling on and off the menu theme
+				}
+			}
+
+			HorizontalPosition: {
+				Tooltip: ""
+				Left.Label: Sinistra
+				Right.Label: Destra
+			}
+		}
+	}
+}

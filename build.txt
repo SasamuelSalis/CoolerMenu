@@ -1,0 +1,4 @@
+displayName = Sam's Cooler Menu Screen
+author = Samuel Salis
+version = 1.21
+side = Client
