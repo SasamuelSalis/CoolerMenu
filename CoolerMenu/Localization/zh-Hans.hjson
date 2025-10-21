@@ -1,0 +1,128 @@
+Mods: {
+	CoolerMenu: {
+		DisplayName: 更酷的菜单
+		Description: 更酷炫的主菜单体验
+		SinglePlayer: 单人
+		Multiplayer: 多人
+		Achievements: 成就
+		Settings: 设置
+		Workshop: 创意工坊
+		Exit: 退出
+		WorkshopError: 无法打开创意工坊
+		AchievementsError: 无法打开成就
+
+		CoreMenu: {
+			CoreMenuSwap: "切换核心菜单主题: "
+			Vanilla: 原版
+			CoolerMenu: Sam的更酷菜单界面
+		}
+
+		SplashMessages: {
+			Splash1: 现在按钮可以滑动啦！
+			Splash2: 钓鱼人说：多钓鱼，多赚钱！
+			Splash3: 不要留树桩，园艺师会生气！
+			Splash4: Zenith挂了。
+			Splash5: 去创意工坊逛逛吧！
+			Splash6: 净化世界，从你开始！
+			Splash7: tModLoader提供技术支持！
+			Splash8: 一起，我们才是Terraria。
+			Splash9: 按钮漂浮，操作更酷！
+			Splash10: 比原版还要炫！
+			Splash11: 最后的1%去哪了？？？
+			Splash12: Calamity？我都不太认识她…
+			Splash13: 活在鞋盒里的Terrarian。
+			Splash14: 这箱子千万别是陷阱…
+			Splash15: Terrarian不幸被巨石砸死了
+			Splash16: Herobrine不包括在内！
+			Splash17: 这不是Chum Bucket！！
+			Splash18: 棍棒和石头伤不到这些骨头！
+			Splash19: 消息占位 text_message.goes(here)
+			Splash20: 99%的再锻造者在变神级前就放弃了
+			Splash21: 我本有个笑话，但忘了…
+			Splash22: 困难模式一定会让你抓狂！
+			Splash23: 你永远是英雄。
+			Splash24: 不是诺亚方舟
+			Splash25: 键盘上有史莱姆，抱歉打字乱了…
+			Splash26: 重新种树吧！
+			Splash27: 整理你的物品栏，不然混乱！
+			Splash28: 凌晨三点别玩，伤眼又伤身
+			Splash29: Terrarian，你是Terrasavr，我记得！
+			Splash30: 是的，铁和铅本质上是一样的。
+			Splash31: 超级电影感！
+			Splash32: Mirsario算什么，我更强！
+			Splash33: 指南总会回来的。
+			Splash34: 比切片面包还棒的发明！
+			Splash35: 危险：本游戏可能过于刺激
+			Splash36: 充满背景故事与秘密
+			Splash37: RGB蝴蝶不要杀，它们很可爱！
+			Splash38: 去地狱！或者去太空也行！
+			Splash39: 我判你完成200个钓鱼任务。
+			Splash40: 保证让你大吃一惊！
+			Splash41: 警告：游戏极其有趣且容易上瘾
+			Splash42: NPC折磨模拟器上线！
+			Splash43: 杀掉所有兔子！！全部！
+			Splash44: 技能不足者慎入
+			Splash45: 糟糕的精灵AI，别指望它帮你
+			Splash46: 是的，Terrasavr是作弊工具
+			Splash47: 逃离地牢守卫？随你
+			Splash48: 史莱姆雨来啦！
+			Splash49: 9/10医生推荐
+			Splash50: 你真是个坏蛋。
+			Splash51: 加载文本 (41.67% 完成)
+		}
+
+		Configs: {
+			CoolerMenuConfig: {
+				DisplayName: 更酷菜单设置
+
+				Headers: {
+					Appearance: 外观
+					Icons: 图标
+					Animations: 动画
+					CoreMenuConfig: 核心菜单设置
+				}
+
+				ButtonPosition: {
+					Label: 按钮位置
+					Tooltip: 按钮显示在屏幕的哪一侧
+				}
+
+				LogoPosition: {
+					Label: Logo位置
+					Tooltip: Logo显示在屏幕的哪一侧
+				}
+
+				EnableHoverBackgrounds: {
+					Label: 悬停背景
+					Tooltip: 鼠标悬停按钮时显示背景
+				}
+
+				EnableButtonIcons: {
+					Label: 按钮图标
+					Tooltip: 在菜单按钮旁显示图标
+				}
+
+				EnableSplashMessages: {
+					Label: Logo下的提示信息
+					Tooltip: 显示随机提示信息
+				}
+
+				EnableFloatingAnimation: {
+					Label: 漂浮按钮
+					Tooltip: 启用按钮漂浮/上下动画
+				}
+
+				isMenuActive: {
+					Label: 菜单激活
+					Tooltip: 配置开关菜单主题
+				}
+			}
+
+			HorizontalPosition: {
+				Tooltip: ""
+				Left.Label: 左
+				Right.Label: 右
+			}
+		}
+	}
+}

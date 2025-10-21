@@ -1,0 +1,128 @@
+Mods: {
+	CoolerMenu: {
+		DisplayName: Cooleres Menü
+		Description: Ein cooleres Hauptmenü-Erlebnis
+		SinglePlayer: Einzelspieler
+		Multiplayer: Mehrspieler
+		Achievements: Erfolge
+		Settings: Einstellungen
+		Workshop: Workshop
+		Exit: Beenden
+		WorkshopError: Fehler beim Öffnen des Workshops
+		AchievementsError: Fehler beim Öffnen der Erfolge
+
+		CoreMenu: {
+			CoreMenuSwap: "Menü-Design wechseln: "
+			Vanilla: Vanilla
+			CoolerMenu: Sams Cooles Menü
+		}
+
+		SplashMessages: {
+			Splash1: Jetzt mit gleitenden Buttons!
+			Splash2: Der Angler sagt: FANG MEHR FISCHE!
+			Splash3: Lass keine Baumstümpfe stehen!
+			Splash4: Zerbrochener Zenith.
+			Splash5: Schau mal im Workshop vorbei!
+			Splash6: Reinige diese Welt!
+			Splash7: Angetrieben von tModLoader!
+			Splash8: Zusammen sind wir Terraria.
+			Splash9: Schwebende Buttons!
+			Splash10: Cooler als Vanilla!
+			Splash11: WO IST DAS LETZTE 1%???
+			Splash12: Calamity? Kaum kenn ich sie!
+			Splash13: Leben in einer Schuhschachtel.
+			Splash14: Diese Truhe ist hoffentlich kein Fal-
+			Splash15: Leider wurde der Terrarianer von einem FELSEN zerquetscht
+			Splash16: Herobrine nicht enthalten!
+			Splash17: Das ist nicht der Abfalleimer!
+			Splash18: Stöcke und Steine brechen diese Knochen nicht!
+			Splash19: text_nachricht.geht(hier)
+			Splash20: 99% aller Schmiede geben auf, bevor sie (GÖTTLICH) bekommen
+			Splash21: Ich hatte einen lustigen Witz, aber hab ihn vergessen
+			Splash22: Der Hardmode wird dich bestimmt zum Aufgeben bringen!
+			Splash23: Du bist der Held – für immer.
+			Splash24: Nicht Noahs Arche
+			Splash25: girq/w22igyq4rgy, sorry, Schleim auf der Tastatur...
+			Splash26: Pflanz die Bäume wieder!
+			Splash27: Sortiere dein Inventar!
+			Splash28: Spiel nicht um 3 Uhr morgens!
+			Splash29: Terrarianer, ich erinnere mich – du bist TERRASAVR
+			Splash30: Ja, Eisen und Blei sind dasselbe.
+			Splash31: Reines Kino!
+			Splash32: Mirsario kann mir nicht das Wasser reichen!
+			Splash33: Der Guide kommt IMMER zurück.
+			Splash34: Das Beste seit geschnittenem Brot!
+			Splash35: WARNUNG: Dieses Spiel kann hohe Aufregung verursachen
+			Splash36: Voller LORE!
+			Splash37: Töte die RGB-Schmetterlinge nicht, okay?
+			Splash38: Geh zur Hölle! Oder vielleicht ins All!
+			Splash39: Ich verurteile dich zu 200 Angelquests.
+			Splash40: Haut dich garantiert um!
+			Splash41: WARNUNG: Extrem spaßig und süchtig machend!
+			Splash42: NPC-Folter-Simulator!
+			Splash43: TÖTE DIE HASEN, ALLE!!!
+			Splash44: Nicht für Leute mit „Skill Issue“
+			Splash45: Schreckliche Feen-KI!
+			Splash46: Ja, TerraSavr ist Cheaten.
+			Splash47: Entkomme dem Dungeon-Wächter – oder auch nicht.
+			Splash48: Es regnet Slimes!
+			Splash49: Von 9 von 10 Ärzten empfohlen
+			Splash50: Du bist ein schrecklicher Mensch.
+			Splash51: Ladebildschirm-Text (41,67% fertig)
+		}
+
+		Configs: {
+			CoolerMenuConfig: {
+				DisplayName: Cooles Menü – Konfiguration
+
+				Headers: {
+					Appearance: Aussehen
+					Icons: Symbole
+					Animations: Animationen
+					// CoreMenuConfig: Core Menu Config Header
+				}
+
+				ButtonPosition: {
+					Label: Button-Position
+					Tooltip: Auf welcher Seite des Bildschirms die Buttons erscheinen
+				}
+
+				LogoPosition: {
+					Label: Logo-Position
+					Tooltip: Auf welcher Seite des Bildschirms das Logo erscheint
+				}
+
+				EnableHoverBackgrounds: {
+					Label: Hover-Hintergründe
+					Tooltip: Zeigt Hintergrundbilder beim Überfahren der Buttons mit der Maus
+				}
+
+				EnableButtonIcons: {
+					Label: Button-Symbole
+					Tooltip: Zeigt Symbole neben den Menübuttons
+				}
+
+				EnableSplashMessages: {
+					Label: Zufällige Sprüche
+					Tooltip: Zeigt zufällige Sprüche unter dem Logo an
+				}
+
+				EnableFloatingAnimation: {
+					Label: Schwebende Buttons
+					Tooltip: Aktiviert eine Schweb-/Wippanimation für die Buttons
+				}
+
+				isMenuActive: {
+					// Label: Menu Active
+					// Tooltip: Config way of toggling on and off the menu theme
+				}
+			}
+
+			HorizontalPosition: {
+				Tooltip: ""
+				Left.Label: Links
+				Right.Label: Rechts
+			}
+		}
+	}
+}

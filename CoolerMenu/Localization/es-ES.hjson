@@ -1,0 +1,128 @@
+Mods: {
+	CoolerMenu: {
+		DisplayName: Menú Más Cool
+		Description: Una experiencia de menú principal más genial
+		SinglePlayer: Un jugador
+		Multiplayer: Multijugador
+		Achievements: Logros
+		Settings: Configuración
+		Workshop: Taller
+		Exit: Salir
+		WorkshopError: Error al abrir el Taller
+		AchievementsError: Error al abrir los Logros
+
+		CoreMenu: {
+			CoreMenuSwap: "Cambiar tema del menú principal: "
+			Vanilla: Vanilla
+			CoolerMenu: Menú genial de Sam
+		}
+
+		SplashMessages: {
+			Splash1: ¡Ahora con botones deslizantes!
+			Splash2: El Pescador dice: ¡ATRAPA MÁS PECES!
+			Splash3: ¡No dejes los tocones de los árboles!
+			Splash4: Zenith roto.
+			Splash5: ¡Revisa el Taller!
+			Splash6: ¡Purifica ese mundo!
+			Splash7: ¡Impulsado por tModLoader!
+			Splash8: Juntos, somos Terraria.
+			Splash9: ¡Botones que flOtAn!
+			Splash10: ¡Más genial que el vanilla!
+			Splash11: ¿DÓNDE ESTÁ ESE ÚLTIMO 1%???
+			Splash12: ¿Calamity? ¡Apenas la conozco!
+			Splash13: Viviendo en una caja de zapatos.
+			Splash14: Este cofre mejor que no sea una tra-
+			Splash15: Desafortunadamente, el Terrariano murió por una ROCA
+			Splash16: ¡Herobrine no incluido!
+			Splash17: ¡Esto no es el Cubo de Cebo!
+			Splash18: ¡Palos y piedras no romperán ESTOS huesos!
+			Splash19: texto_mensaje.va(aquí)
+			Splash20: El 99% de los reforjadores se rinden antes de conseguir (DIOSES)
+			Splash21: Tenía un chiste gracioso pero se me olvidó
+			Splash22: ¡El Modo Difícil seguro te hará renunciar!
+			Splash23: Eres el héroe, por siempre.
+			Splash24: No es el arca de Noé
+			Splash25: girq/w22igyq4rgy, perdón, un slime en el teclado...
+			Splash26: ¡Replanta los árboles!
+			Splash27: ¡Organiza tu inventario!
+			Splash28: No juegues a las 3 AM
+			Splash29: Terrariano, recuerdo que eres TERRASAVR
+			Splash30: Sí, el Hierro y el Plomo SON lo mismo.
+			Splash31: ¡Cine absoluto!
+			Splash32: ¡Mirsario no me llega ni a los talones!
+			Splash33: El Guía SIEMPRE vuelve.
+			Splash34: ¡Lo mejor desde el pan rebanado!
+			Splash35: PELIGRO: este juego puede causar altos niveles de emoción
+			Splash36: ¡Lleno de LORE!
+			Splash37: No mates a las mariposas RGB, ¿ok?
+			Splash38: ¡Ve al infierno! O... ¡al espacio!
+			Splash39: Te condeno a 200 misiones de pesca.
+			Splash40: ¡Seguro que te dejará sin calcetines!
+			Splash41: ADVERTENCIA: el juego puede ser extremadamente divertido y adictivo
+			Splash42: ¡Simulador de tortura de NPCs!
+			Splash43: ¡¡¡MATA A LOS CONEJOS, MÁTALOS A TODOS!!!
+			Splash44: No apto para quienes tienen falta de habilidad
+			Splash45: ¡IA de hadas terrible!
+			Splash46: Sí, usar TerraSavr es hacer trampa.
+			Splash47: Escapa del Guardián de la Mazmorra... o no.
+			Splash48: ¡Está lloviendo slime!
+			Splash49: Aprobado por 9 de cada 10 doctores
+			Splash50: Eres una persona terrible.
+			Splash51: texto de carga (41.67% completado)
+		}
+
+		Configs: {
+			CoolerMenuConfig: {
+				DisplayName: Configuración del Menú Cool
+
+				Headers: {
+					Appearance: Apariencia
+					Icons: Íconos
+					Animations: Animaciones
+					// CoreMenuConfig: Core Menu Config Header
+				}
+
+				ButtonPosition: {
+					Label: Posición de los botones
+					Tooltip: En qué lado de la pantalla aparecen los botones
+				}
+
+				LogoPosition: {
+					Label: Posición del logo
+					Tooltip: En qué lado de la pantalla aparece el logo
+				}
+
+				EnableHoverBackgrounds: {
+					Label: Fondos al pasar el cursor
+					Tooltip: Muestra imágenes de fondo al pasar el cursor sobre los botones
+				}
+
+				EnableButtonIcons: {
+					Label: Íconos en los botones
+					Tooltip: Muestra íconos junto a los botones del menú
+				}
+
+				EnableSplashMessages: {
+					Label: Mensajes aleatorios
+					Tooltip: Muestra mensajes aleatorios debajo del logo
+				}
+
+				EnableFloatingAnimation: {
+					Label: Botones flotantes
+					Tooltip: Activa la animación de flotación/balanceo en los botones
+				}
+
+				isMenuActive: {
+					// Label: Menu Active
+					// Tooltip: Config way of toggling on and off the menu theme
+				}
+			}
+
+			HorizontalPosition: {
+				Tooltip: ""
+				Left.Label: Izquierda
+				Right.Label: Derecha
+			}
+		}
+	}
+}
