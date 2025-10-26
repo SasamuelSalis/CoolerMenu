@@ -79,7 +79,7 @@ Mods: {
 					Appearance: Заголовок Внешнего вида
 					Icons: Заголовок Иконок
 					Animations: Заголовок Анимаций
-					// CoreMenuConfig: Core Menu Config Header
+					// CoreMenuConfig: Core Menu Config
 				}
 
 				ButtonPosition: {
@@ -112,7 +112,7 @@ Mods: {
 					Tooltip: Включить эффект плавания/качания для кнопок
 				}
 
-				isMenuActive: {
+				IsMenuActive: {
 					// Label: Menu Active
 					// Tooltip: Config way of toggling on and off the menu theme
 				}

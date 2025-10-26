@@ -18,7 +18,6 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.UI;
 using Terraria.UI.Chat;
-using tModPorter;
 
 namespace CoolerMenu.Common.Menu;
 
@@ -88,7 +87,7 @@ public sealed class MenuSystem : ModSystem
 
     private const float BackgroundFadeSpeed = .05f;
 
-    private static readonly float[] BackgroundOpacities = new float[5];
+    private static readonly float[] BackgroundOpacities = new float[ButtonLabels.Length];
 
     private const string SplashKey = "Mods.CoolerMenu.SplashMessages.Splash";
 
@@ -396,7 +395,7 @@ public sealed class MenuSystem : ModSystem
 
         float eased = Easings.InOutCubic(SlideProgress);
 
-            // PlayerInput.SetZoom_UI(); - ??
+        PlayerInput.SetZoom_UI();
             // ApplyScaleMatrix(); -  Whoever wrote this initially did NOT know what they were doing. :sob:
 
             // Draw our menu.
@@ -416,7 +415,9 @@ public sealed class MenuSystem : ModSystem
 
         using (new RenderTargetSwap(ref TransitionTarget, viewport.Width, viewport.Height))
         {
-            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, Main.DefaultSamplerState, DepthStencilState.None, RasterizerState.CullCounterClockwise, null, Main.UIScaleMatrix);
+            device.Clear(Color.Transparent);
+
+            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.AnisotropicClamp, DepthStencilState.None, UIElement.OverflowHiddenRasterizerState, null, Main.UIScaleMatrix);
 
             orig(self, spriteBatch, time);
 
@@ -434,7 +435,7 @@ public sealed class MenuSystem : ModSystem
         spriteBatch.Draw(TransitionTarget, position, color);
 
         spriteBatch.End();
-        spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, Main.DefaultSamplerState, DepthStencilState.None, RasterizerState.CullCounterClockwise, null, Main.UIScaleMatrix);
+        spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.AnisotropicClamp, DepthStencilState.None, RasterizerState.CullCounterClockwise, null, Main.UIScaleMatrix);
 
             // PlayerInput.SetZoom_UI();
             // ApplyScaleMatrix(); - Stop.
@@ -631,7 +632,7 @@ public sealed class MenuSystem : ModSystem
             // If not hovering any button, keep the last background visible but fading.
         if (newlyHovered == -1 && HoveredButton != -1)
             BackgroundOpacities[HoveredButton] =
-                Math.Max(BackgroundOpacities[newlyHovered] - BackgroundFadeSpeed * 0.3f, .3f);
+                Math.Max(BackgroundOpacities[HoveredButton] - BackgroundFadeSpeed * 0.3f, .3f);
         else if (newlyHovered != -1)
             BackgroundOpacities[newlyHovered] =
                 Math.Min(BackgroundOpacities[newlyHovered] + BackgroundFadeSpeed * 2f, .9f);
@@ -728,7 +729,9 @@ public sealed class MenuSystem : ModSystem
 
         string splashText = CurrentSplash.Value;
 
-        Vector2 textSize = font.MeasureString(splashText);
+        float size = .4f;
+
+        Vector2 textSize = font.MeasureString(splashText) * size;
 
             // Position text under the logo.
         float xPos = config.LogoPosition == HorizontalPosition.Left ? 260f : Main.screenWidth - 260f;
@@ -737,9 +740,8 @@ public sealed class MenuSystem : ModSystem
         textPosition.X -= textSize.X * .5f;
 
         Color splashColor = Main.OurFavoriteColor; // new(255, 255, 100);
-        float splashScale = .6f;
 
-        ChatManager.DrawColorCodedStringWithShadow(spriteBatch, font, splashText, textPosition, splashColor, 0f, Vector2.Zero, new(splashScale));
+        ChatManager.DrawColorCodedStringWithShadow(spriteBatch, font, splashText, textPosition, splashColor, 0f, Vector2.Zero, new(size));
     }
 
     #endregion
@@ -781,7 +783,7 @@ public sealed class MenuSystem : ModSystem
 
         DynamicSpriteFont font = FontAssets.DeathText.Value;
 
-        float baseScale = .7f;
+        float baseScale = .6f;
 
         Vector2 textSizeVec = font.MeasureString(text) * baseScale;
 
@@ -825,7 +827,7 @@ public sealed class MenuSystem : ModSystem
             SoundEngine.PlaySound(SoundID.MenuTick);
 
         float scale = hovered ? baseScale * 1.1f : baseScale;
-        Color color = hovered ? new Color(255, 230, 80) : Color.White;
+        Color color = hovered ? Main.OurFavoriteColor : Color.White;
 
             // Drop-shadow.
         ChatManager.DrawColorCodedStringWithShadow(spriteBatch, font, text, textPos + new Vector2(2, 2), Color.Black, 0f, Vector2.Zero, new Vector2(scale));
@@ -839,6 +841,18 @@ public sealed class MenuSystem : ModSystem
             SoundEngine.PlaySound(SoundID.MenuOpen);
 
             clickAction();
+
+                // Stupid but, clear the target when a new button is clicked.
+            GraphicsDevice device = Main.instance.GraphicsDevice;
+
+            Viewport viewport = device.Viewport;
+
+            spriteBatch.End();
+
+            using (new RenderTargetSwap(ref TransitionTarget, viewport.Width, viewport.Height))
+                device.Clear(Color.Transparent);
+
+            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.AnisotropicClamp, DepthStencilState.None, RasterizerState.CullCounterClockwise, null, Main.UIScaleMatrix);
         }
     }
 

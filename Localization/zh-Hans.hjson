@@ -112,7 +112,7 @@ Mods: {
 					Tooltip: 启用按钮漂浮/上下动画
 				}
 
-				isMenuActive: {
+				IsMenuActive: {
 					Label: 菜单激活
 					Tooltip: 配置开关菜单主题
 				}

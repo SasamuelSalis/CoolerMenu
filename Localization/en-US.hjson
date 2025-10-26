@@ -112,7 +112,7 @@ Mods: {
 					Tooltip: Enable floating/bobbing animation for buttons
 				}
 
-				isMenuActive: {
+				IsMenuActive: {
 					Label: Menu Active
 					Tooltip: Config way of toggling on and off the menu theme
 				}

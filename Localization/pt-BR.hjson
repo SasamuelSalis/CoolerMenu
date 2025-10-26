@@ -79,7 +79,7 @@ Mods: {
 					Appearance: Cabeçalho de Aparência
 					Icons: Cabeçalho de Ícones
 					Animations: Cabeçalho de Animações
-					// CoreMenuConfig: Core Menu Config Header
+					// CoreMenuConfig: Core Menu Config
 				}
 
 				ButtonPosition: {
@@ -112,7 +112,7 @@ Mods: {
 					Tooltip: Ativar animação de flutuação/balanço para os botões
 				}
 
-				isMenuActive: {
+				IsMenuActive: {
 					// Label: Menu Active
 					// Tooltip: Config way of toggling on and off the menu theme
 				}
