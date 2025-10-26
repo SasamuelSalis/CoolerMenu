@@ -76,10 +76,10 @@ Mods: {
 				DisplayName: Cooler Menu Config
 
 				Headers: {
-					Appearance: Appearance Header
-					Icons: Icons Header
-					Animations: Animations Header
-					CoreMenuConfig: Core Menu Config Header
+					Appearance: Appearance
+					Icons: Icons
+					Animations: Animations
+					CoreMenuConfig: Core Menu Config
 				}
 
 				ButtonPosition: {
@@ -112,7 +112,7 @@ Mods: {
 					Tooltip: Enable floating/bobbing animation for buttons
 				}
 
-				isMenuActive: {
+				IsMenuActive: {
 					Label: Menu Active
 					Tooltip: Config way of toggling on and off the menu theme
 				}

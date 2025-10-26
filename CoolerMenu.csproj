@@ -1,13 +1,32 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<!-- Import tModLoader mod properties -->
 	<Import Project="..\tModLoader.targets" />
 
 	<!-- General -->
 	<PropertyGroup>
+		<!-- Hide this pesky warning -->
+		<ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
 
+		<!-- For whatever reason neither '14' nor '14.0' are valid and cause issues -->
+		<LangVersion>preview</LangVersion>
 	</PropertyGroup>
+	
+	<!-- Publicizer -->
+	<ItemGroup>
+		<PackageReference Include="Krafs.Publicizer" PrivateAssets="true" Version="2.2.1" />
 
-	<!-- References -->
+		<!-- Include Terraria/tModLoader -->
+		<Publicize Include="tModLoader" IncludeVirtualMembers="false" IncludeCompilerGeneratedMembers="false" />
+		<!-- Include the FNA framework -->
+		<Publicize Include="tModLoader;FNA" IncludeVirtualMembers="false" IncludeCompilerGeneratedMembers="false" />
+	</ItemGroup>
+
+	<!-- Source Generation -->
+	<ItemGroup>
+		<!-- Add every asset as an additional file so that our source generator can find it -->
+		<AdditionalFiles Include="Assets\**" />
+		<PackageReference Include="ZourceGen" Version="1.1.4" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
+	</ItemGroup>
 
 </Project>

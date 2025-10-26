@@ -112,7 +112,7 @@ Mods: {
 					Tooltip: Włącz animację unoszenia się/przemieszczania przycisków
 				}
 
-				isMenuActive: {
+				IsMenuActive: {
 					Label: Menu aktywne
 					Tooltip: Opcja konfiguracji włączania/wyłączania motywu menu
 				}

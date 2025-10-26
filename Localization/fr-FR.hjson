@@ -79,7 +79,7 @@ Mods: {
 					Appearance: Apparence
 					Icons: Icônes
 					Animations: Animations
-					// CoreMenuConfig: Core Menu Config Header
+					// CoreMenuConfig: Core Menu Config
 				}
 
 				ButtonPosition: {
@@ -112,7 +112,7 @@ Mods: {
 					Tooltip: Active l’animation de flottement pour les boutons
 				}
 
-				isMenuActive: {
+				IsMenuActive: {
 					// Label: Menu Active
 					// Tooltip: Config way of toggling on and off the menu theme
 				}
